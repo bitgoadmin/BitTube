@@ -1,0 +1,5 @@
+#!/usr/bin/perl
+
+my ( $y, $m, $d ) = ( localtime ) [ 5, 4, 3 ];
+
+printf( "%4d%02d%02d\n", $y + 1900, $m + 1, $d );
